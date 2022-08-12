@@ -26,6 +26,10 @@ body {
     flex-flow: wrap;
     justify-content: center;
 }
+.destination:hover h2 {
+    transform: rotate(0deg);
+    transition: transform 0.5s;
+}
 
 .destination {
     background: #03a9f4;
